@@ -61,3 +61,9 @@ if (isset($_POST['add'])) {
         }
 
     }
+
+
+     Name VARCHAR(100) NOT NULL,
+    ->     Position VARCHAR(100) NOT NULL,
+    ->     PartyList VARCHAR(100) NOT NULL,
+    ->     VoteCount INT NOT NULL
